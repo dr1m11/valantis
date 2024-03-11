@@ -1,0 +1,14 @@
+.root {
+  width: 100px;
+  height: 40px;
+  border: none;
+  background-color: #000;
+  color: white;
+  font-size: 25px;
+  cursor: pointer;
+  transition: all .2s ease-in-out;
+
+  &:hover {
+    background-color: #494949;
+  }
+}
