@@ -7,7 +7,7 @@ export const fetchFields = createAsyncThunk(
     async (_, thunkAPI) => {
         try {
             const response = await axios({
-                url: 'http://api.valantis.store:40000/',
+                url: 'https://api.valantis.store:41000/',
                 method: 'post',
                 data: {
                     "action": "get_fields",

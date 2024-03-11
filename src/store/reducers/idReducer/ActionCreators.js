@@ -7,7 +7,7 @@ export const fetchId = createAsyncThunk(
     async (info, thunkAPI) => {
         try {
             const response = await axios({
-                url: 'http://api.valantis.store:40000/',
+                url: 'https://api.valantis.store:41000/',
                 method: 'post',
                 data: {
                     "action": "get_ids",
